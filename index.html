@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Frederico | Portfólio</title>
+</head>
+
+<body>
+    <div class="particulas"></div>
+    <nav class="navegacao">
+        <a href="#inicio" class="marca" aria-label="Frederico Souto, início">FSM<span>.</span></a>
+        <ul class="menu">
+            <li> <a href="#inicio" class="menu-link"> Início </a> </li>
+            <li> <a href="#sobre" class="menu-link"> Sobre </a> </li>
+            <li> <a href="#ferramentas" class="menu-link"> Ferramentas </a> </li>
+            <li> <a href="#projetos" class="menu-link"> Projetos </a> </li>
+            <li> <a href="#contato" class="menu-link"> Contato </a> </li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <img src="Img/Perfil (2).jpeg" alt="Foto de perfil" class="foto-perfil">
+        <p class="hero-etiqueta">PORTFÓLIO <span>•</span> DESENVOLVIMENTO</p>
+        <h1>Frederico Souto Magalhães</h1>
+        <p class="cabecalho-paragrafo">Tecnologia, criatividade e soluções digitais.</p>
+        <div class="hero-acoes">
+            <a href="#projetos" class="botao-hero botao-hero-destaque">Explorar projetos <span aria-hidden="true">↘</span></a>
+            <a href="#contato" class="botao-hero botao-hero-secundario">Fale comigo</a>
+        </div>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Sou um desenvolvedor apaixonado por tecnologia e inovação. Tenho experiência em
+                desenvolvimento web e estou sempre buscando aprender novas habilidades para aprimorar meus projetos.</p>
+        </div>
+    </section>
+
+    <section id="ferramentas" class="ferramentas">
+        <h2 class="ferramentas-titulo">Minha caixa de ferramentas</h2>
+        <p class="ferramentas-descricao">Tecnologias que uso para transformar ideias em projetos.</p>
+        <div class="ferramentas-caixa">
+            <article class="ferramenta-card">
+                <img src="Img/icons8-python-96.png" alt="" class="ferramenta-imagem">
+                <h3>Python</h3>
+                <p>Linguagem de programação</p>
+            </article>
+            <article class="ferramenta-card">
+                <img src="Img/icons8-html-5-96.png" alt="" class="ferramenta-imagem">
+                <h3>HTML</h3>
+                <p>Estrutura de páginas web</p>
+            </article>
+            <article class="ferramenta-card">
+                <img src="Img/icons8-css3-96.png" alt="" class="ferramenta-imagem">
+                <h3>CSS</h3>
+                <p>Estilização de páginas web</p>
+            </article>
+            <article class="ferramenta-card">
+                <img src="Img/icons8-javascript-96.png" alt="" class="ferramenta-imagem">
+                <h3>JavaScript</h3>
+                <p>Interatividade para a web</p>
+            </article>
+            <article class="ferramenta-card">
+                <img src="Img/icons8-google-sites-96.png" alt="" class="ferramenta-imagem">
+                <h3>Google Sites</h3>
+                <p>Criação de sites</p>
+            </article>
+            <article class="ferramenta-card">
+                <img src="Img/icons8-planilha-96.png" alt="" class="ferramenta-imagem">
+                <h3>Google Planilhas</h3>
+                <p>Organização de dados</p>
+            </article>
+            <article class="ferramenta-card">
+                <img src="Img/icons8-visual-studio-code-2019-96.png" alt="" class="ferramenta-imagem">
+                <h3>Visual Studio Code</h3>
+                <p>Editor de código</p>
+            </article>
+            <article class="ferramenta-card">
+                <img src="Img/icons8-linguagem-lua-96.png" alt="" class="ferramenta-imagem">
+                <h3>Lua</h3>
+                <p>Linguagem de programação</p>
+            </article>
+            <article class="ferramenta-card">
+                <img src="Img/icons8-github-100.png" alt="" class="ferramenta-imagem">
+                <h3>GitHub</h3>
+                <p>Plataforma de hospedagem de código</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <img src="Img/paisagem-natural-og.webp" alt="Projeto 1" class="projeto-imagem">
+                <div class="caixas-texto-projetos">
+                    <h3 class="info-projetos">Projeto 1</h3>
+                    <p class="paragrafos-projetos">Descrição do projeto 1.</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="Img/paisagem-natural-og.webp" alt="Projeto 1" class="projeto-imagem">
+                <div class="caixas-texto-projetos">
+                    <h3 class="info-projetos">Projeto 1</h3>
+                    <p class="paragrafos-projetos">Descrição do projeto 1.</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="Img/paisagem-natural-og.webp" alt="Projeto 1" class="projeto-imagem">
+                <div class="caixas-texto-projetos">
+                    <h3 class="info-projetos">Projeto 1</h3>
+                    <p class="paragrafos-projetos">Descrição do projeto 1.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <h2 class="contato-titulo">Entre em Contato</h2>
+        <form class="formulario-contato" id="formulario" onsubmit="enviarwhats(event)">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="text-form" id="nome">
+            </div>
+            <div class="grupo-form">
+                <textarea class="text-form" placeholder="Digite sua mensagem" rows=4 id="mensagem"></textarea>
+            </div>
+            <button type="submit" class="botao-form">Enviar WhatsApp</button>
+        </form>
+    </section>
+
+    <script>
+        const reduzirMovimento = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const cabecalho = document.querySelector('.cabecalho');
+        const itensFade = document.querySelectorAll(
+            '.sobre-titulo, .sobre-caixa, .ferramentas-titulo, .ferramentas-descricao, .ferramenta-card, .projetos-titulo, .projetos-card, .contato-titulo, .formulario-contato'
+        );
+
+        itensFade.forEach((item) => item.classList.add('fade-rolagem'));
+
+        const limitar = (valor) => Math.min(1, Math.max(0, valor));
+        const suavizar = (t) => t * t * (3 - 2 * t);
+
+        let agendado = false;
+
+        function atualizarFade() {
+            agendado = false;
+            const altura = window.innerHeight;
+
+            const progressoTopo = limitar(window.scrollY / (altura * 0.6));
+            cabecalho.style.opacity = (1 - suavizar(progressoTopo)).toFixed(3);
+
+            itensFade.forEach((item) => {
+                const caixa = item.getBoundingClientRect();
+                const entrada = suavizar(limitar((altura * 0.92 - caixa.top) / (altura * 0.3)));
+                const saida = suavizar(limitar(caixa.bottom / (altura * 0.25)));
+                const opacidade = Math.min(entrada, saida);
+
+                item.style.opacity = opacidade.toFixed(3);
+
+                if (!reduzirMovimento) {
+                    item.style.translate = `0 ${((1 - entrada) * 40).toFixed(1)}px`;
+                }
+            });
+        }
+
+        function pedirAtualizacao() {
+            if (agendado) return;
+            agendado = true;
+            requestAnimationFrame(atualizarFade);
+        }
+
+        window.addEventListener('scroll', pedirAtualizacao, { passive: true });
+        window.addEventListener('resize', pedirAtualizacao);
+        window.addEventListener('load', atualizarFade);
+        atualizarFade();
+
+        let animacaoRolagem = null;
+
+        const suavizarRolagem = (t) => t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+
+        function cancelarRolagem() {
+            if (animacaoRolagem) {
+                cancelAnimationFrame(animacaoRolagem);
+                animacaoRolagem = null;
+            }
+        }
+
+        function rolarSuave(destino) {
+            cancelarRolagem();
+
+            const inicio = window.scrollY;
+            const maximo = document.documentElement.scrollHeight - window.innerHeight;
+            const alvo = Math.min(Math.max(destino, 0), maximo);
+            const distancia = alvo - inicio;
+
+            if (Math.abs(distancia) < 2) return;
+
+            const duracao = Math.min(1600, Math.max(800, Math.abs(distancia) * 0.55));
+            const comeco = performance.now();
+
+            function passo(agora) {
+                const progresso = Math.min((agora - comeco) / duracao, 1);
+                window.scrollTo({ top: inicio + distancia * suavizarRolagem(progresso), behavior: 'instant' });
+
+                if (progresso < 1) {
+                    animacaoRolagem = requestAnimationFrame(passo);
+                } else {
+                    animacaoRolagem = null;
+                }
+            }
+
+            animacaoRolagem = requestAnimationFrame(passo);
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach((link) => {
+            link.addEventListener('click', (evento) => {
+                const id = link.getAttribute('href');
+                const secao = id.length > 1 ? document.querySelector(id) : null;
+
+                if (!secao) return;
+
+                evento.preventDefault();
+
+                const margem = parseFloat(getComputedStyle(secao).scrollMarginTop) || 0;
+                const topo = secao.getBoundingClientRect().top + window.scrollY - margem;
+
+                rolarSuave(id === '#inicio' ? 0 : topo);
+                history.pushState(null, '', id);
+            });
+        });
+
+        window.addEventListener('wheel', cancelarRolagem, { passive: true });
+        window.addEventListener('touchstart', cancelarRolagem, { passive: true });
+        window.addEventListener('keydown', (evento) => {
+            if (['ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End', ' '].includes(evento.key)) {
+                cancelarRolagem();
+            }
+        });
+
+        function enviarwhats(event) {
+
+            event.preventDefault();
+
+            const nome = document.getElementById('nome');
+            const mensagem = document.getElementById('mensagem');
+            const telefone = '5531972606929'
+
+            const texto = `Olá! Me chamo ${nome.value}, ${mensagem.value}`;
+            const msgFormatada = encodeURIComponent(texto);
+
+            const url = `https://wa.me/${telefone}?text=${msgFormatada}`;
+
+            console.log(url);
+
+            window.open(url, '_blank');
+        }
+
+
+    </script>
+</body>
+
+</html>
